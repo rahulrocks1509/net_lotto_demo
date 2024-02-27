@@ -9,7 +9,7 @@ void main() {
     // 2
     environment: Environment.dev,
     // 3
-    appTitle: '[DEV] BuzzwordBingo',
+    appTitle: '[DEV] Hello WOrld',
   );
   // 4
   runApp(configuredApp);
