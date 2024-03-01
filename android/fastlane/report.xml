@@ -5,12 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000501">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000384">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ../../.ci_scripts/my_script.sh usa" time="0.063008">
+      <testcase classname="fastlane.lanes" name="1: Switch to android setup_app_config lane" time="0.000223">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: ../../.ci_scripts/my_script.sh usa" time="0.047447">
         
       </testcase>
     

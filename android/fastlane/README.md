@@ -13,6 +13,17 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 # Available Actions
 
+### setup_app_config
+
+```sh
+[bundle exec] fastlane setup_app_config
+```
+
+
+
+----
+
+
 ## Android
 
 ### android build_multiple_apks
