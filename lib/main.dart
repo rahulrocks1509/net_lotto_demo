@@ -5,11 +5,10 @@ import 'main_screen.dart';
 void main() {
   // 1
   const configuredApp = AppConfig(
-    child: MainScreen(),
-    // 2
     environment: Environment.dev,
     // 3
     appTitle: 'Test 3',
+    child: MainScreen(),
   );
   // 4
   runApp(configuredApp);

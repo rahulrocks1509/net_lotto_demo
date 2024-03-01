@@ -14,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+# To run the specific env file run below command
+- fastlane <platform> <lane_name> --env <specify_env_name>
+- eg:- fastlane android import_usa_package --env beta // if not specify --env beta then use the default env
+

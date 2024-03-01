@@ -1,17 +1,4 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
-
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
+import("../../fastlane/imports/app_config_setup.rb")
 
 default_platform(:android)
 
@@ -26,16 +13,19 @@ platform :android do
 
    desc "Import Germany Package "
    lane :import_germ_package do
+      setup_app_config
       sh('../../.ci_scripts/my_script.sh germ')
     end
 
    desc "Import Aus Package"
    lane :import_aus_package do
+       setup_app_config
        sh('../../.ci_scripts/my_script.sh aus')
     end
 
    desc "Import USA Package"
    lane :import_usa_package do
+        setup_app_config
         sh('../../.ci_scripts/my_script.sh usa')
     end
 end
